@@ -15,6 +15,4 @@ This project demonstrates two implementations of the **Strategy Design Pattern**
 2. Compile the Java files using `javac *.java`. 💻
 3. Run the main program using `java StrategyPatternExample`. ▶️
 
-## 📸 Screenshots
 
-Screenshots of the running program can be found in the `screenshots` folder. 🖼️

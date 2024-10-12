@@ -16,9 +16,7 @@
 # Ignore Maven and Gradle directories (if you're using them)
 target/
 build/
-.idea
 
-*.iml
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
