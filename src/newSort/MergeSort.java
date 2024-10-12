@@ -1,7 +1,7 @@
-package TP_Strategy.src.newSort;
+package newSort;
 
-import TP_Strategy.src.Approach2.Sorter;
-import TP_Strategy.src.Approach2.SortingStrategy;
+import Approach2.Sorter;
+import Approach2.SortingStrategy;
 
 public class MergeSort implements SortingStrategy {
     private Sorter context;

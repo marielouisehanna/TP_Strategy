@@ -13,9 +13,19 @@ public class StrategyPatternExample {
 
         // Perform a sort using the BubbleSort strategy
         sorter.performSort(numbers);
+        printArray(numbers);  // Print sorted array
 
         // Switch to the QuickSort strategy and perform another sort
         sorter.setStrategy(quickSort);
         sorter.performSort(numbers);
+        printArray(numbers);  // Print sorted array
+    }
+
+    // Method to print array
+    private static void printArray(int[] array) {
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
     }
 }
