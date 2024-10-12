@@ -1,4 +1,4 @@
-package TP_Strategy.src.Approach1;
+package Approach1;
 
 public class StrategyPatternExample {
     public static void main(String[] args) {
