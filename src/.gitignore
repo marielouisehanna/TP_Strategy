@@ -1,0 +1,22 @@
+# Ignore compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+*.classpath
+*.project
+
+# Ignore Maven and Gradle directories (if you're using them)
+target/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
