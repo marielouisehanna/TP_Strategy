@@ -1,4 +1,4 @@
-package TP_Strategy.src.Approach2;
+package Approach2;
 
 public class QuickSort implements SortingStrategy {
     private Sorter context;
