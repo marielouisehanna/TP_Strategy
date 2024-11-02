@@ -1,18 +1,49 @@
 
-# 🚀 Strategy Design Pattern Lab
+# 🛠️ TP Design Patterns Lab
 
-This project demonstrates two implementations of the **Strategy Design Pattern** in Java. We use a simple sorting example with **Bubble Sort**, **Quick Sort**, and a new sorting method, **Merge Sort**.
+This project showcases multiple design patterns in Java, with implementations for the Strategy, Bridge, Decorator, and Adaptor patterns. Each pattern has its own example demonstrating unique design principles. 
 
-## 📁 Structure
+## 📖 Project Overview
 
-- **Approach 1**: The context class (`Sorter`) passes the data to the sorting strategy explicitly. 📝
-- **Approach 2**: The strategy holds a reference to the context class (`Sorter`) to access the data. 🔄
-- **New Sort**: A third sorting method, **Merge Sort**, is added to both approaches. ⚡
+### Patterns Implemented
+1. **Strategy Pattern**: Demonstrates sorting algorithms (Bubble Sort, Quick Sort, Merge Sort) with two variations in data handling between the context and strategy.
+2. **Bridge Pattern**: Separates abstraction from implementation, allowing them to vary independently. 
+3. **Decorator Pattern**: Dynamically adds behavior to objects by wrapping them in decorator classes. 
+4. **Adaptor Pattern**: Allows incompatible interfaces to work together by creating an adapter. 
 
-## 🛠️ How to Compile and Run
+## 🌟 Features
+- **Design Patterns**: Clear examples of Strategy, Bridge, Decorator, and Adaptor patterns.
+- **Flexible Implementations**: Shows various approaches within each pattern.
 
-1. Navigate to the `src/Approach1` or `src/Approach2` directories. 📂
-2. Compile the Java files using `javac *.java`. 💻
-3. Run the main program using `java StrategyPatternExample`. ▶️
+## 🚀 Getting Started
 
+### ✅ Prerequisites
+Ensure Java is installed:
+```bash
+java -version
+```
+
+### 🏃 Compilation and Execution
+
+1. Navigate to the specific pattern's folder (e.g., `Bridge`, `Decorator`, `Adaptor`, or `src/Strategy/Approach1`).
+2. Compile Java files:
+   ```bash
+   javac *.java
+   ```
+3. Run the example:
+   ```bash
+   java MainClassName  # Replace with the main class name of each pattern
+   ```
+
+## 📂 Project Structure
+- `src/Strategy`: Sorting algorithms using the Strategy Pattern.
+  - `Approach1`: Context passes data to the strategy.
+  - `Approach2`: Strategy accesses data from context.
+- `src/Bridge`: Separates abstraction from implementation.
+- `src/Decorator`: Adds behavior to objects dynamically.
+- `src/Adaptor`: Connects incompatible interfaces.
+
+
+
+## 📜 License
 
