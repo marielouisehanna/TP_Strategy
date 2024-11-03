@@ -1,8 +1,3 @@
-
-# 🛠️ TP Design Patterns Lab
-
-This project showcases multiple design patterns in Java, with implementations for the Strategy, Bridge, Decorator, and Adaptor patterns. Each pattern has its own example demonstrating unique design principles. 
-
 # 🛠️ TP Design Patterns Lab
 
 This project showcases multiple design patterns in Java, with implementations for Strategy, Bridge, Decorator, Adapter, Facade, Proxy, Chain of Responsibility, Mediator, and State patterns. Each pattern includes an example demonstrating key design principles.
