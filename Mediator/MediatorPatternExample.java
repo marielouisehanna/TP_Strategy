@@ -5,8 +5,8 @@ abstract class DirecteurDeDialogue {
 
 // Concrete Mediator
 class DirecteurDeDlgPolice extends DirecteurDeDialogue {
-    private BoiteDeListe liste;
-    private ChampDeSaisie champ;
+    protected BoiteDeListe liste;
+    protected ChampDeSaisie champ;
 
     public void CreeWidgets() {
         this.liste = new BoiteDeListe(this);
