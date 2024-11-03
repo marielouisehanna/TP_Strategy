@@ -48,14 +48,14 @@ java -version
 - `src/Strategy`: Sorting algorithms using the Strategy Pattern.
   - `Approach1`: Context passes data to the strategy.
   - `Approach2`: Strategy accesses data from context.
-- `src/Bridge`: Demonstrates abstraction separated from implementation.
-- `src/Decorator`: Adds dynamic behavior to objects.
-- `src/Adapter`: Connects incompatible interfaces.
-- `src/Facade`: Provides a simplified interface for complex subsystems.
-- `src/Proxy`: Manages access to another object.
-- `src/ChainOfResponsibility`: Passes requests down a chain of handlers.
-- `src/Mediator`: Facilitates communication between objects with reduced coupling.
-- `src/State`: Alters object behavior based on internal state.
+- `Bridge`: Demonstrates abstraction separated from implementation.
+- `Decorator`: Adds dynamic behavior to objects.
+- `Adapter`: Connects incompatible interfaces.
+- `Facade`: Provides a simplified interface for complex subsystems.
+- `Proxy`: Manages access to another object.
+- `ChainOfResponsibility`: Passes requests down a chain of handlers.
+- `Mediator`: Facilitates communication between objects with reduced coupling.
+- `State`: Alters object behavior based on internal state.
 
 ## 📜 License
 
